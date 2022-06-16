@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #000000;
+}
+
+header a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    max-width: 75em;
+    margin: auto;
+}
+
+header ul {
+    list-style: none;
+    max-width: 75em;
+    margin: auto;
+}
+
+.container {
+    height: 190px;
+}
+
+.nav-bar-1 {
+    background-color: #34495e;
+    color: #fff;
+}
+.nav-bar-1 a {
+    color: #ddd;
+    font-weight: 600;
+    font-size: 0.7em;
+}
+.nav-bar-1 a:hover {
+    color: #ef009d;
+}
+.nav-bar-1 ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    height: 45px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.navbar2 {
+    background-color: #fff;
+    box-shadow: 0px -2px 10px #00000017;
+}
+.navbar2 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    padding: 0px 25px;
+    text-transform: uppercase;
+}
+
+.navbar2 a {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #000000a8;
+}
+.navbar2 a:hover {
+    color: #9B59B6;
+}
+
+
+/*Logo e btn*/
+.logo {
+    background-color: #fff;
+    max-width: 100%;
+    margin: auto;
+}
+.logo img {
+    padding: 10px 0px;
+    max-width: 75em;
+    margin: auto;
+    display: block;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    
+}
+
+header button {
+    color: white;
+    cursor: pointer;
+    background-color: #4a6683;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+    
+}
+  
+/*Começo do main*/
+
+main {
+    padding-top: 10px 0px;
+    background-color: #000000;
+    max-width: 75em;
+    margin: auto;
+}
+/*Primeiro titulo*/
+.title-divbar h1 {
+    padding: 10px 25px;
+    color: #ef009d;
+}
+
+.bar-white {
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: #FCFCFC;
+    margin: 20px 0px;
+}
+
+.title2 {
+    font-size: 0.8em;
+    color: #fff;
+    padding: 0px 0px 60px 25px;
+}
+
+/*As duas primeiras sesção*/
+section {
+    max-width: 70em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry-image img {
+    cursor: pointer;
+}
+.entry-title {
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+.entry-title:hover {
+    color: #ef009d;
+}
+
+.section-2-pag1 {
+    padding-top: 60px;
+}
+
+
+/* parte 3 escrita*/
+.section3 {
+    max-width: 75em;
+    margin: auto;
+
+}
+
+.title-divbar-2 h1 {
+    padding: 70px 25px 10px;
+    color: #ef009d;
+}
+
+.bar-white {
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: #FCFCFC;
+    margin: 20px 0px;
+}
+
+.title4 {
+    font-size: 0.8em;
+    color: #fff;
+    padding: 0px 0px 0px 25px;
+}
+
+
+/*PAINA 3 PARTE DO FUTEBOL*/
+
+.futebol-part-1 {
+    max-width: 75em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.futebol-part-2 {
+    margin-top: 50px;
+    max-width: 75em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jogos-futebol{
+    margin-top: 50px;
+    width: 249px;
+    
+}
+
+.entry-image img{
+    width: 249px;
+    height: 140px;
+}
+
+.entry-category a {
+    text-decoration: none;
+    color: #ef009d;
+    font-size: 0.8em;
+}
+
+.entry-category a:hover {
+    color: white;
+}
+
+h3 {
+    padding-top: 10px;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+h3 a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #ef009d;
+}
+
+.virgula {
+    color: white;
+    margin: 2px;
+}  
+
+/*BTN FINAL*/
+
+.btn-block{
+    margin: 70px 0px;
+    max-width: 70em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-final a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-final {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 20px;
+    display: block;
+    height: 80px;
+    width: 335px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.btn-final:hover {
+    background-position: right center;
+    text-decoration: none;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #273746;
+    color: white;
+    padding: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer a {
+    color: #ef009d;
+}
+
+footer a:hover {
+    color: #000000;
+}
+
+.text-p-final {
+    font-size: 13px;
+}
